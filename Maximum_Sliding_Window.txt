@@ -1,6 +1,5 @@
 import java.util.*;
-
-public class Main {
+public class Main {
     public static int[] maxsliding( int[] in,  int w) {
      int[] max_left = new int[in.length];
      int[] max_right = new int[in.length];
@@ -8,8 +7,7 @@ public class Main {
     max_right[in.length - 1] = in[in.length - 1];
     for (int i = 1; i < in.length; i++) {
         max_left[i] = (i % w == 0) ? in[i] : Math.max(max_left[i - 1], in[i]);
-
-        final int j = in.length - i - 1;
+        final int j = in.length - i - 1;
         max_right[j] = (j % w == 0) ? in[j] : Math.max(max_right[j + 1], in[j]);
     }
     final int[] sliding_max = new int[in.length - w + 1];
@@ -33,6 +31,5 @@ public static void main(String[] args) throws Exception {
     }
     
 }
-
-
+
 
