@@ -61,7 +61,7 @@ class Main {
 		
 		int[] res = {Integer.MAX_VALUE};
 		traverseHeight(root, arr, res);
-		System.out.println("Minimum: " + arr[root.idx] + ", Second 						minimum: " + res[0]);
+		System.out.println("Minimum: " + arr[root.idx] + ", Second minimum: " + res[0]);
 	}
 	public static void main(String[] args) {
 	    Scanner s=new Scanner(System.in);
