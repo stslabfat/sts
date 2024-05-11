@@ -2,7 +2,7 @@
 
 import java.util.*;
 class Main {
-	class Edge {
+class Edge {
 		int src, dest, weight;
 		Edge(){
 			src = dest = weight = 0;
