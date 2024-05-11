@@ -20,4 +20,16 @@ Add the program name as per endpoint after an '/' in the link and run again
 19-Vertical_Order_Traversal.txt
 20-Views_Tree.txt
 21-Winner_Tree.txt
+22-Fibonacci_DP.txt
+23-Fibonacci_Recursion.txt
+24-HashMap_to_TreeMap.txt
+25-Dist_Items.txt
+26-Longest_Bitonic_Sequence.txt
+27-Longest_Common_Subsequence.txt
+28-Longest_Increasing_Subsequence.txt
+29-Longest_Palindrome_Subsequence.txt
+30-Stack_Perumutation.txt
+31-Subset_Sum.txt
+32-Topological_Sort.txt
+
 
